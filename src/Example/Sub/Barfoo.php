@@ -6,7 +6,7 @@ use Example\Base;
 
 class Barfoo
 {
-  public function negate(\Example\Base $base, $value)
+  public function negate(Base $base, $value)
   {
     return "Negative: ".($base->negate($value) ? 'true' : 'false');
   }
